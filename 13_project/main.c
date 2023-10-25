@@ -45,14 +45,30 @@ int insertion_sort(int *arr_in, int *arr_out_1, int *n) {
 }
 
 
-int merge_sort(int *arr_out_2, int *n) {
+int gnome_sort(int *arr_out_2, int *n) {
+    size_t i = 1;
+
+    while (i < (*n)) {
+        if (i == 0) {
+            i = 1;
+        }
+        if (arr_out_2[i-1] <= arr_out_2[i]) {
+            ++i;
+        } else {
+
+            long tmp = arr_out_2[i];
+            arr_out_2[i] = arr_out_2[i-1];
+            arr_out_2[i-1] = tmp;
+            --i;
+        }
+    }
 
     return 0;
 
 }
 
 int write_to_out_2(FILE *f, int *arr_out_2, int *n) {
-    f = fopen("out_merge.txt", "w");
+    f = fopen("out_gnome.txt", "w");
     for (int i = 0; i < (*n); i++) {
         fprintf(f, " %d ", arr_out_2[i]);
     }
@@ -102,11 +118,11 @@ int main() {
         }
         write_to_out_1(f, arr_out_1, &n);
 
-        printf("\n\nArray merge sort result:\n\n");
+        printf("\n\nArray gnome sort result:\n\n");
         for (int i = 0; i < n; i++) {
             arr_out_2[i] = arr_in[i];
         }
-        merge_sort(arr_out_2, &n);
+        gnome_sort(arr_out_2, &n);
         for (int i = 0; i < n; i++) {
             printf("%d ", arr_out_2[i]);
         }
