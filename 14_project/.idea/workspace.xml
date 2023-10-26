@@ -9,8 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2448302a-e46a-478f-9ff9-6c0ba11b2a59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="95aa70d2-4b8f-47f8-b802-c91d9dfb883d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../12_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12_project/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,15 +21,20 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="fourteen_project" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2X7plB64AoQcdf2lWjcBtHnfW5J" />
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2XJXZPcmu7ejJaHBFgWDVcKxIsQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,8 +47,8 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/acer/OneDrive/Рабочий стол/Процедурное программирование/13_project",
+    "git-widget-placeholder": "fourteen__project",
+    "last_opened_file_path": "C:/Users/acer/OneDrive/Рабочий стол/Процедурное программирование/14_project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,20 +57,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\acer\OneDrive\Рабочий стол\Процедурное программирование\12_project" />
-    </key>
-  </component>
   <component name="RunManager" selected="C/C++ File.main2.c">
-    <configuration name="main1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="12_project" TARGET_NAME="main1.c" CONFIG_NAME="main1.c">
-      <option name="sourceFile" value="source\main1.c" />
+    <configuration name="main1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="14_project" TARGET_NAME="main1.c" CONFIG_NAME="main1.c">
+      <option name="sourceFile" value="main1.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="12_project" TARGET_NAME="main2.c" CONFIG_NAME="main2.c">
-      <option name="sourceFile" value="source\main2.c" />
+    <configuration name="main2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="14_project" TARGET_NAME="main2.c" CONFIG_NAME="main2.c">
+      <option name="sourceFile" value="main2.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -80,13 +80,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2448302a-e46a-478f-9ff9-6c0ba11b2a59" name="Changes" comment="" />
-      <created>1697990120405</created>
+      <changelist id="95aa70d2-4b8f-47f8-b802-c91d9dfb883d" name="Changes" comment="" />
+      <created>1698348210921</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697990120405</updated>
-      <workItem from="1697990121429" duration="404000" />
-      <workItem from="1698072497950" duration="91000" />
+      <updated>1698348210921</updated>
+      <workItem from="1698348211979" duration="6432000" />
     </task>
     <servers />
   </component>

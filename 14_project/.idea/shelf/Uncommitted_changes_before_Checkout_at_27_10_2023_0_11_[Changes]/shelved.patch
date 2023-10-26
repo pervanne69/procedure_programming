@@ -1,0 +1,44 @@
+Index: ../calculator/main.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//\r\n// Created by acer on 23.10.2023.\r\n//\r\n
+===================================================================
+diff --git a/../calculator/main.c b/../calculator/main.c
+--- a/../calculator/main.c	
++++ b/../calculator/main.c	
+@@ -1,3 +1,32 @@
+-//
+-// Created by acer on 23.10.2023.
+-//
++#include <stdio.h>
++
++
++int main() {
++    int a, b;
++    double res;
++    char operand;
++
++    printf("A: ");
++    scanf("%d", &a);
++    printf("B: ");
++    scanf("%d", &b);
++    printf("Write the operand (+, -, /, %, *): ");
++    scanf("%c%*c", &operand);
++    switch (operand) {
++        case '+':
++            printf("%d", a + b);
++            break;
++        case '-':
++            res = a - b;
++            break;
++        case '/':
++            res = (double)(a / b);
++            break;
++        case '*':
++            res = a * b;
++            break;
++    }
++    printf("result = %lf", res);
++    printf("\n%c", operand);
++
++}
