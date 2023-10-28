@@ -17,18 +17,10 @@
 int main() {
     char str[N];
 
-    char *result_res = malloc(N);
+    scanf("%s", str);
 
-    int count = 0;
+    printf("%s", str);
 
-    printf("Write the string: ");
-    fgets(str, 102, stdin);
-    printf("You wrote: ");
-    puts(str);
-
-    for (int i = 0; i < N; i++) {
-        printf("%c", str[i]);
-    }
 
 
     return 0;
