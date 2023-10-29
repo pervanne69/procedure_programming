@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f37642d-11a4-4380-bf7b-62ec45fde035" name="Changes" comment="" />
+    <list default="true" id="5cf4ed2a-6b1f-474a-ad98-d0344fcc20b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../16_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16_project/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,20 +21,12 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2XQmyMoGwGNs9L9B8GJq7Gq0l6c" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2XRF6GxY50osQoXZdacAlcN0p6U" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,8 +39,8 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "calculator",
-    "last_opened_file_path": "C:/Users/acer/OneDrive/Рабочий стол/Процедурное программирование/16_project",
+    "git-widget-placeholder": "guess__the__number",
+    "last_opened_file_path": "C:/Users/acer/OneDrive/Рабочий стол/Процедурное программирование/guess_the_number",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,41 +49,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\acer\OneDrive\Рабочий стол\Процедурное программирование\16_project" />
-    </key>
-  </component>
-  <component name="RunManager" selected="C/C++ File.main3.c">
-    <configuration name="main2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="16_project" TARGET_NAME="main2.c" CONFIG_NAME="main2.c">
-      <option name="sourceFile" value="main2.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main3.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="16_project" TARGET_NAME="main3.c" CONFIG_NAME="main3.c">
-      <option name="sourceFile" value="main3.c" />
+  <component name="RunManager">
+    <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="guess_the_number" TARGET_NAME="main.c" CONFIG_NAME="main.c">
+      <option name="sourceFile" value="main.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.main3.c" />
-        <item itemvalue="C/C++ File.main2.c" />
+        <item itemvalue="C/C++ File.main.c" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3f37642d-11a4-4380-bf7b-62ec45fde035" name="Changes" comment="" />
-      <created>1698569931078</created>
+      <changelist id="5cf4ed2a-6b1f-474a-ad98-d0344fcc20b2" name="Changes" comment="" />
+      <created>1698583809017</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698569931078</updated>
-      <workItem from="1698569932110" duration="19000" />
-      <workItem from="1698570244852" duration="3592000" />
+      <updated>1698583809017</updated>
+      <workItem from="1698583810045" duration="1280000" />
     </task>
     <servers />
   </component>
