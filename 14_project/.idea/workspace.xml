@@ -4,14 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="CMakeSettings">
-    <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
-    </configurations>
+    <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95aa70d2-4b8f-47f8-b802-c91d9dfb883d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../guess_the_number/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../guess_the_number/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../running_string/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../running_string/main.c" afterDir="false" />
+    <list default="true" id="c7a5ffe7-ba2d-46e6-9d8a-d96e0ce42ced" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../10_project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_project/.idea/10_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13_project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2023_0_11_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2023_0_11_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2023_0_11__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2023_0_11__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main2.c" beforeDir="false" afterPath="$PROJECT_DIR$/main2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/.idea/16_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/Aspose.Words.c1354b6e-f565-4e9e-b4c6-4eab0cd706a1.001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/Aspose.Words.c1354b6e-f565-4e9e-b4c6-4eab0cd706a1.002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/Aspose.Words.c1354b6e-f565-4e9e-b4c6-4eab0cd706a1.003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/Aspose.Words.c1354b6e-f565-4e9e-b4c6-4eab0cd706a1.004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/Aspose.Words.c1354b6e-f565-4e9e-b4c6-4eab0cd706a1.005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/Aspose.Words.c1354b6e-f565-4e9e-b4c6-4eab0cd706a1.006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/Aspose.Words.c1354b6e-f565-4e9e-b4c6-4eab0cd706a1.007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/main1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/main1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/main2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/main2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/main3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_project/main3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_project/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_project/main1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_project/main1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_project/out_insertion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_project/out_merge.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6_project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6_project/.idea/6_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6_project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6_project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_project/.idea/9_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9_project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Motivation letter.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/.idea/calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guess_the_number/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guess_the_number/.idea/guess_the_number.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guess_the_number/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guess_the_number/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guess_the_number/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guess_the_number/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guess_the_number/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../penguins_cats/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../penguins_cats/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../penguins_cats/.idea/penguins_cats.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../penguins_cats/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../penguins_cats/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../penguins_cats/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../running_string/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../running_string/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../running_string/.idea/running_string.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../running_string/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../running_string/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../running_string/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_view/~$актическая работа 14.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_view/~$актическая работа 16.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_view/Практическая работа 1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_view/Практическая работа 10.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_view/Практическая работа 11.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_view/Практическая работа 12.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../word_view/Практическая работа 13.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,86 +94,16 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="fourteen_project" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2XJXZPcmu7ejJaHBFgWDVcKxIsQ" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
     "git-widget-placeholder": "running__string",
-    "last_opened_file_path": "C:/Users/acer/OneDrive/Рабочий стол/Процедурное программирование/14_project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\acer\OneDrive\Рабочий стол\Процедурное программирование\14_project" />
-    </key>
-  </component>
-  <component name="RunManager" selected="C/C++ File.main2.c">
-    <configuration name="main1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="14_project" TARGET_NAME="main1.c" CONFIG_NAME="main1.c">
-      <option name="sourceFile" value="main1.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="14_project" TARGET_NAME="main2.c" CONFIG_NAME="main2.c">
-      <option name="sourceFile" value="main2.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="C/C++ File.main2.c" />
-        <item itemvalue="C/C++ File.main1.c" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="95aa70d2-4b8f-47f8-b802-c91d9dfb883d" name="Changes" comment="" />
-      <created>1698348210921</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1698348210921</updated>
-      <workItem from="1698348211979" duration="6674000" />
-      <workItem from="1698569906061" duration="24000" />
-      <workItem from="1698732351478" duration="481000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
