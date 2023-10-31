@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cf4ed2a-6b1f-474a-ad98-d0344fcc20b2" name="Changes" comment="" />
+    <list default="true" id="5cf4ed2a-6b1f-474a-ad98-d0344fcc20b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../running_string/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2XRF6GxY50osQoXZdacAlcN0p6U" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,7 +39,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "penguins__cats",
+    "git-widget-placeholder": "running__string",
     "last_opened_file_path": "C:/Users/acer/OneDrive/Рабочий стол/Процедурное программирование/penguins_cats",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698583809017</updated>
       <workItem from="1698583810045" duration="1436000" />
+      <workItem from="1698599615459" duration="24000" />
     </task>
     <servers />
   </component>

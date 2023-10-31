@@ -9,7 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95aa70d2-4b8f-47f8-b802-c91d9dfb883d" name="Changes" comment="" />
+    <list default="true" id="95aa70d2-4b8f-47f8-b802-c91d9dfb883d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../guess_the_number/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../guess_the_number/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../running_string/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../running_string/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,8 +51,8 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "16__project",
-    "last_opened_file_path": "C:/Users/acer/OneDrive/Рабочий стол/Процедурное программирование/16_project",
+    "git-widget-placeholder": "running__string",
+    "last_opened_file_path": "C:/Users/acer/OneDrive/Рабочий стол/Процедурное программирование/14_project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +96,7 @@
       <updated>1698348210921</updated>
       <workItem from="1698348211979" duration="6674000" />
       <workItem from="1698569906061" duration="24000" />
+      <workItem from="1698732351478" duration="481000" />
     </task>
     <servers />
   </component>
