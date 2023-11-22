@@ -9,7 +9,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f37642d-11a4-4380-bf7b-62ec45fde035" name="Changes" comment="" />
+    <list default="true" id="3f37642d-11a4-4380-bf7b-62ec45fde035" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../14_project/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2023_0_11__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14_project/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2023_0_11__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_project/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2023_0_11__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14_project/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2023_0_11__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +50,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "calculator",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/acer/OneDrive/Рабочий стол/Процедурное программирование/16_project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -90,6 +95,7 @@
       <updated>1698569931078</updated>
       <workItem from="1698569932110" duration="19000" />
       <workItem from="1698570244852" duration="3592000" />
+      <workItem from="1698734929741" duration="737000" />
     </task>
     <servers />
   </component>
