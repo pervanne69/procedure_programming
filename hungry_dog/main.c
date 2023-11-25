@@ -12,6 +12,7 @@ int main() {
     int x = 10, y = 5; // Начальное положение собаки
     int ox, oy;  // Координаты собаки до перемещения
     int ax = 5, ay = 3;
+    int count_a = 0;
     char key;  // Нажатый символ
 
     do {
@@ -64,11 +65,11 @@ int main() {
         }
         // Реализация поедания яблока
         if ((x == ax) && (y == ay)) {
+            count_a += 1;
             ax = rand() * 1.0 / RAND_MAX * (M - 3) + 1;
             ay = rand() * 1.0 / RAND_MAX * (N - 2) + 1;
         }
     } while (key != 'e');
-
-
+    printf("\nCount of collected apples is %d\n", count_a);
     return 0;
 }
