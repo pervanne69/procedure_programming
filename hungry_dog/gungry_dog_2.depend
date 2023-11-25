@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1700906227 source:c:\users\acer\onedrive\Рабочий стол\Процедурное программирование\gungry_dog_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
