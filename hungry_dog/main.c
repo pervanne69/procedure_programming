@@ -5,28 +5,32 @@
 #define M 21
 
 int main() {
-    // Добавить врагов
-    // Добавить расширение
-    // Определенное кол-во съеденных яблок - след.уровень (больше врагов через уровень)
-    // зелье добавить, которое восстанавливает жихни
+    // Добавить врагов +
+    // Определенное кол-во съеденных яблок - след.уровень (больше врагов через уровень) +
+    // зелье добавить, которое восстанавливает жизни +
     srand(time(NULL));
     // Первая размерность матрица - высота, Вторая размерность матрица - ширина
     int mas[N][M];  // Карта
     int i, j;
-    int current_level = 1;
-    int first_level = 3, second_level = 7, third_level = 10, final_level = 20;
+    int current_level = 1;  // Текущий уровень
+    int first_level = 3, second_level = 7, third_level = 10, final_level = 20;  // Пороговые количество яблок для каждого уровна
     int count_enemy = 1;
     char heart[] = "<3";
-    int count_heart = 3;
+    char heal = '!'; // Зелье здоровья
+    int t_heal = 0;
+    int x_heal, y_heal;
+    int count_heart = 3; // Количество жизней
     int x = 10, y = 5; // Начальное положение собаки
     int ox, oy;  // Координаты собаки до перемещения
-    int x_old_enemy, y_old_enemy;
-    int ax = 5, ay = 3;
-    int x_enemy = 4, y_enemy = 3;
-    int x_f_enemy, y_f_enemy;
-    int x_f_old_enemy, y_f_old_enemy;
-    int count_a = 0;
+    int ax = 5, ay = 3; // Координаты яблока
+    int x_old_enemy, y_old_enemy;  // Предыдущие координаты врага
+    int x_enemy = 4, y_enemy = 3;  // Координаты врага
+    int x_f_enemy, y_f_enemy;  // Координаты второго врага
+    int x_f_old_enemy, y_f_old_enemy;  // Предыдущие координаты второго врага
+    int count_a = 0; // Количество собранных яблок
     char key;  // Нажатый символ
+
+    // Границы карты
 
     do {
          for (i = 0; i < M; i++) {
@@ -42,21 +46,56 @@ int main() {
                 }
             }
         }
-        mas[y][x] = '@';
-        mas[ay][ax] = '*';
-        mas[y_enemy][x_enemy] = '&';
-        if (current_level == 4) {
-            x_f_enemy = rand() * 1.0 / RAND_MAX * (M - 3) + 1;
-            y_f_enemy = rand() * 1.0 / RAND_MAX * (N - 2) + 1;
-            while ((x_f_enemy == x_enemy) && (y_f_enemy == y_enemy)) {
-                x_f_enemy = rand() * 1.0 / RAND_MAX * (M - 3) + 1;
-                y_f_enemy = rand() * 1.0 / RAND_MAX * (N - 2) + 1;
-                while ((x == x_f_enemy) && (y == y_f_enemy)) {
-                    x_f_enemy = rand() * 1.0 / RAND_MAX * (M - 3) + 1;
-                    y_f_enemy = rand() * 1.0 / RAND_MAX * (N - 2) + 1;
+        mas[y][x] = '@';  // Собака
+        mas[ay][ax] = '*';  // Яблоко
+        mas[y_enemy][x_enemy] = '&';  // Враг
+        if (t_heal == 1) {
+            mas[y_heal][x_heal] = '!';
+        }
+        if (t_heal == 0) {
+            x_heal = M - rand() * 1.0 / RAND_MAX * (M - 3);
+            y_heal = N - rand() * 1.0 / RAND_MAX * (N - 3);
+            mas[y_heal][x_heal] = heal;
+            t_heal = 1;
+        }
+        if ((x == x_heal) && (y == y_heal)) {
+            if (count_heart != 3) {
+               count_heart += 1;
+            }
+            t_heal = 0;
+            mas[y_heal][x_heal] = '@';
+            for (i = 0; i < N - 1; i++) {
+                for (j = 0; j < M; j++) {
+                    if (mas[i][j] == heal) {
+                        mas[i][j] = ' ';
+                    }
                 }
             }
+
+        }
+        // Процесс появление второго врага
+        if (current_level == 4) {
+            x_f_enemy = x_enemy + 1;
+            y_f_enemy =  y_enemy + 1;
             mas[y_f_enemy][x_f_enemy] = '&';
+            if (x_f_enemy > ax + 1) {
+                x_f_enemy -= 1;
+            } else if (x_f_enemy < ax - 1) {
+                x_enemy += 1;
+            } else if (ax == x_enemy + 1) {
+                if (y_f_enemy > ay) {
+                    y_enemy -= 1;
+                } else if (y_f_enemy < ay) {
+                    y_enemy += 1;
+                }
+            }
+            if (mas[y_f_enemy][x_f_enemy] == '#') {
+                if (y_f_enemy == N - 1) y_f_enemy -= 1;
+                else if (y_f_enemy == 0) y_f_enemy = 1;
+                else if (x_f_enemy == M - 1) x_f_enemy -= 1;
+                else if (x_f_enemy == 0) x_f_enemy = 1;
+
+            }
         }
         system("cls"); // Очистка экрана
         if (count_a == first_level) {
