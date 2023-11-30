@@ -53,10 +53,11 @@ int main() {
             mas[y_heal][x_heal] = '!';
         }
         if (t_heal == 0) {
-            x_heal = M - rand() * 1.0 / RAND_MAX * (M - 3);
-            y_heal = N - rand() * 1.0 / RAND_MAX * (N - 3);
+            x_heal = rand() * 1.0 / RAND_MAX * (M - 3) + 1;
+            y_heal = rand() * 1.0 / RAND_MAX * (N - 2) + 1;
             mas[y_heal][x_heal] = heal;
             t_heal = 1;
+
         }
         if ((x == x_heal) && (y == y_heal)) {
             if (count_heart != 3) {
