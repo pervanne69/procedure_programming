@@ -23,8 +23,8 @@ void insert(Node * list, Node * t);
 void insert_before(Node * list, Node * t);
 void list_remove (Node * t);
 // void list_remove_before(Node * t);
-Node * add_front(Node * list, Node * t);
-Node * add_back(Node * list, Node * t);
+Node * add_front(Node * list, Data d);
+Node * add_back(Node * list, Data d);
 Data pop_front (Node * list);
 Data pop_back (Node * list);
 Data delete(Node * t);
@@ -76,6 +76,16 @@ void list_remove (Node * t) {
 
 }
 
+Node * add_front(Node * list, Data d) {
+    Node * p = malloc(sizeof(Node));
+    p -> data = d;
+    insert(list, p);
+    return p;
+}
+
+Node * add_back(Node * list, Data d) {
+    add_front(list -> prev, d);
+}
 
 void test0() {
     Node z, a = {{"Pogosyan", "Samvel", "A001UE", "11-01-2006", 435368592759678}};
@@ -123,8 +133,37 @@ void test0() {
     print_back(list);
 }
 
+void test_alloc() {
+    Node z;
+    Node * list = &z;
+    Data test_data1[] = {
+        {"Pogosyan", "Samvel", "A001UE", "11-01-2006", 435368592759678},
+        {"Smirnov", "Evgenie", "S002EV", "11-01-2007", 319283746587582},
+        {"Melnikov", "Egor", "M003OV", "11-01-2008", 456283746589182}
+    };
+    Data test_data2[] = {
+        {"Kuzin", "Gosha", "K004GA", "23-11-2005", 567892346178342},
+        {"Sokun", "Misha", "C005AC", "25-11-2002", 123456789087635}
+    };
+
+    init(list);
+    printf("Empty %s\n", is_empty(list) ? "YES" : "NO");
+
+    Node * t;
+    for (size_t i = 0; i < sizeof(test_data1)/sizeof(test_data1[0]); i++) {
+        t = add_front(list, test_data1[i]);
+        print(list);
+        printf("Pushed: Registration number: %lld\n", t -> data.registration_number);
+    }
+    for (size_t i = 0; i < sizeof(test_data2)/sizeof(test_data2[0]); i++) {
+        t = add_back(list, test_data2[i]);
+        print(list);
+        printf("Pushed back: Registration number: %lld\n", t -> data.registration_number);
+    }
+}
+
 int main() {
-    test0();
+    test_alloc();
 
     return 0;
 }
