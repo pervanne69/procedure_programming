@@ -272,6 +272,7 @@ void test_alloc() {
     printf("poped back: %lld\n", res.registration_number);
 
     clear(list);
+    clear(list_read);
 
     printf("Empty %s\n", is_empty(list) ? "YES" : "NO");
 }
