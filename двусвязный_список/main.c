@@ -145,7 +145,7 @@ void test_foreach() {
     Node z;
     Node * list = &z;
 
-    Node * list_read;
+    Node * list_read = &z;
 
     Data test_data1[] = {
         {"Pogosyan", "Samvel", "A001UE", "11-01-2006", 435368592759678},
