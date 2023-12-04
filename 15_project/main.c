@@ -127,25 +127,18 @@ void * filtered_node(Node * list) {
     Node * list_tmp = list; 
     for (Node * p = list_tmp -> next; p != list_tmp; p = p -> next) {
         char f_l = (p -> data.surname)[0];
-        if (f_l == 'S') {
+        if (f_l == 'M') {
             list_remove(p);
         }
     }
     return list_tmp;
 }
 
-// void load(Node * list, FILE * f) {
-//     f = fopen("save.txt", "r");
-//     Data data_res[3];
-//     for (int i = 0; i < 3; i++) {
-//     }
-// }
 
 void test_foreach() {
     Node z;
     Node * list = &z;
-
-    Node * list_read;
+    Node * list_read = &z;
 
     Data test_data1[] = {
         {"Pogosyan", "Samvel", "A001UE", "11-01-2006", 435368592759678},
@@ -163,7 +156,6 @@ void test_foreach() {
     save(list, stdin);
     save(list, stdout);
     save(list, f);
-    load(list_read, f);
 
     fclose(f);
 
@@ -272,7 +264,7 @@ void test_alloc() {
 }
 
 int main() {
-    // test0()
+    // test0();
     // test_alloc();
     test_foreach();
 

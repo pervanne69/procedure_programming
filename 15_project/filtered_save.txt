@@ -1,4 +1,4 @@
-Surname: Melnikov, Name: Egor, Car number: M003OV, Date of birth: 11-01-2008Ê, Registration numbers: 456283746589182
+Surname: Melnikov, Name: Egor, Car number: M003OV, Date of birth: 11-01-2008×, Registration numbers: 456283746589182
 
 Surname: Pogosyan, Name: Samvel, Car number: A001UE, Date of birth: 11-01-2006, Registration numbers: 435368592759678
 
