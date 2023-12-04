@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef struct {
     char surname[20];
@@ -27,7 +28,7 @@ Node * add_back(Node * list, Data d); // +
 Data list_pop_front (Node * list);  // +
 Data list_pop_back (Node * list);  // +
 Data list_delete(Node * t);  // +
-void clear(Node * list);
+void clear(Node * list);  // +
 
 void init(Node * list) {
     list -> next = list;
@@ -104,6 +105,74 @@ void clear(Node * list) {
     while (!is_empty(list)) {
         list_pop_front(list); // list_pop_back(list)
     }
+}
+
+void print_it(Data d, void * arg) {
+    fprintf((FILE *)arg, "Surname: %s, Name: %s, Car number: %s, Date of birth: %s, Registration numbers: %lld\n", d.surname, d.name, d.car_number, d.date_of_birth, d.registration_number);
+    fprintf((FILE *)arg, "\n");
+}
+
+void foreach(Node * list, void (*func)(Data d, void * a), void * arg) {
+    for (Node * p = list -> next; p != list; p = p -> next) {
+        func(p -> data, arg);
+    }
+}
+
+void save(Node * list, FILE * fout) {
+    foreach(list, print_it, fout);
+    printf("\n");
+}
+
+void * filtered_node(Node * list) {
+    Node * list_tmp = list; 
+    for (Node * p = list_tmp -> next; p != list_tmp; p = p -> next) {
+        char f_l = (p -> data.surname)[0];
+        if (f_l == 'S') {
+            list_remove(p);
+        }
+    }
+    return list_tmp;
+}
+
+// void load(Node * list, FILE * f) {
+//     f = fopen("save.txt", "r");
+//     Data data_res[3];
+//     for (int i = 0; i < 3; i++) {
+//     }
+// }
+
+void test_foreach() {
+    Node z;
+    Node * list = &z;
+
+    Node * list_read;
+
+    Data test_data1[] = {
+        {"Pogosyan", "Samvel", "A001UE", "11-01-2006", 435368592759678},
+        {"Smirnov", "Evgenie", "S002EV", "11-01-2007", 319283746587582},
+        {"Melnikov", "Egor", "M003OV", "11-01-2008", 456283746589182},
+    };
+    init(list);
+    init(list_read);
+    for (size_t i = 0; i < sizeof(test_data1) / sizeof(test_data1[0]); i++) {
+        add_front(list, test_data1[i]);
+    }
+    print(list);
+    FILE * f = fopen("save.txt", "w");
+    FILE * fs = fopen("filtered_save.txt", "w");
+    save(list, stdin);
+    save(list, stdout);
+    save(list, f);
+    load(list_read, f);
+
+    fclose(f);
+
+    Node * new_filtered_list = filtered_node(list);
+
+    save(new_filtered_list, fs);
+
+    fclose(fs);
+    clear(list);
 }
 
 void test0() {
@@ -203,8 +272,9 @@ void test_alloc() {
 }
 
 int main() {
-    // test
-    test_alloc();
+    // test0()
+    // test_alloc();
+    test_foreach();
 
     return 0;
 }
