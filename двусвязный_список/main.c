@@ -15,19 +15,18 @@ typedef struct Node {
     struct Node * prev;
 } Node;
 
-void print(Node * list);
-void print_back(Node * list);
-int is_empty(Node * list);
-void init(Node * list);
-void insert(Node * list, Node * t);
-void insert_before(Node * list, Node * t);
-void list_remove (Node * t);
-// void list_remove_before(Node * t);
-Node * add_front(Node * list, Data d);
-Node * add_back(Node * list, Data d);
-Data pop_front (Node * list);
-Data pop_back (Node * list);
-Data delete(Node * t);
+void print(Node * list);  // +
+void print_back(Node * list);  // +
+int is_empty(Node * list);  // +
+void init(Node * list); // +
+void insert(Node * list, Node * t); // +
+void insert_before(Node * list, Node * t); // +
+void list_remove (Node * t);  // +
+Node * add_front(Node * list, Data d); // +
+Node * add_back(Node * list, Data d); // +
+Data list_pop_front (Node * list);  // +
+Data list_pop_back (Node * list);  // +
+Data list_delete(Node * t);  // +
 void clear(Node * list);
 
 void init(Node * list) {
@@ -84,7 +83,27 @@ Node * add_front(Node * list, Data d) {
 }
 
 Node * add_back(Node * list, Data d) {
-    add_front(list -> prev, d);
+    return add_front(list -> prev, d);
+}
+
+Data list_delete(Node * t) {
+    list_remove(t);
+    Data d = t -> data;
+    free(t);
+    return d;
+}
+
+Data list_pop_front (Node * list) {
+    return list_delete(list -> next);
+}
+Data list_pop_back (Node * list) {
+    return list_delete(list -> prev);
+}
+
+void clear(Node * list) {
+    while (!is_empty(list)) {
+        list_pop_front(list); // list_pop_back(list)
+    }
 }
 
 void test0() {
@@ -160,9 +179,31 @@ void test_alloc() {
         print(list);
         printf("Pushed back: Registration number: %lld\n", t -> data.registration_number);
     }
+
+    printf("Empty %s\n", is_empty(list) ? "YES" : "NO");
+
+    t = list -> next -> next;
+
+    Data res;
+    res = list_delete(t);
+    print(list);
+    printf("Deleted: %lld\n", res.registration_number);
+
+    res = list_pop_front(list);
+    print(list);
+    printf("poped front: %lld\n", res.registration_number);
+
+    res = list_pop_back(list);
+    print(list);
+    printf("poped back: %lld\n", res.registration_number);
+
+    clear(list);
+
+    printf("Empty %s\n", is_empty(list) ? "YES" : "NO");
 }
 
 int main() {
+    // test
     test_alloc();
 
     return 0;
