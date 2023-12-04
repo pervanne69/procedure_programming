@@ -108,7 +108,7 @@ void clear(Node * list) {
 }
 
 void print_it(Data d, void * arg) {
-    fprintf((FILE *)arg, "Surname: %s, Name: %s, Car number: %s, Date of birth: %s, Registration numbers: %lld\n", d.surname, d.name, d.car_number, d.date_of_birth, d.registration_number);
+    fprintf((FILE *)arg, " %s, %s, %s, %s, %lld\n", d.surname, d.name, d.car_number, d.date_of_birth, d.registration_number);
     fprintf((FILE *)arg, "\n");
 }
 
@@ -134,18 +134,21 @@ void * filtered_node(Node * list) {
     return list_tmp;
 }
 
-// void load(Node * list, FILE * f) {
-//     f = fopen("save.txt", "r");
-//     Data data_res[3];
-//     for (int i = 0; i < 3; i++) {
-//     }
-// }
+void load(Node * list_read) {
+    FILE * f_r = fopen("save.txt", "r");
+    for (int i = 0; i < 3; i++) {
+        fscanf(f_r, "%s, %s, %s, %s, %lld", list_read -> data.surname, list_read->data.name, list_read->data.car_number, list_read->data.date_of_birth, list_read -> data.registration_number);
+    }
+    fclose(f_r);
+}
+
+
 
 void test_foreach() {
     Node z;
     Node * list = &z;
 
-    Node * list_read;
+    Node * list_read = &z;
 
     Data test_data1[] = {
         {"Pogosyan", "Samvel", "A001UE", "11-01-2006", 435368592759678},
@@ -155,15 +158,17 @@ void test_foreach() {
     init(list);
     init(list_read);
     for (size_t i = 0; i < sizeof(test_data1) / sizeof(test_data1[0]); i++) {
-        add_front(list, test_data1[i]);
+        add_front(list, test_data1[i]);       
     }
     print(list);
-    FILE * f = fopen("save.txt", "w");
+    FILE * f = fopen("save.txt", "w+");
     FILE * fs = fopen("filtered_save.txt", "w");
     save(list, stdin);
     save(list, stdout);
     save(list, f);
-    load(list_read, f);
+    load(list_read);
+    printf("LIST READ:\n");
+    print(list_read);
 
     fclose(f);
 
@@ -275,6 +280,7 @@ int main() {
     // test0()
     // test_alloc();
     test_foreach();
+
 
     return 0;
 }
